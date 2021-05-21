@@ -20,7 +20,7 @@ import { Vue, Component, Prop, Watch } from "vue-property-decorator";
 
 @Component
 export default class EmployeeQuery extends Vue {
-  @Prop(String)
+  @Prop({ type: String, default: "" })
   name?: string = "";
 
   @Prop({ type: Number, default: 0 })

@@ -1,6 +1,6 @@
 {
-  "name": "vue-employee-query",
-  "version": "1.0.0",
+  "name": "@pinkypinky/vue-employee-query",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/employee-query.js",
   "scripts": {
@@ -26,5 +26,6 @@
   "dependencies": {
     "vue": "^2.6.12",
     "vue-property-decorator": "^9.1.2"
-  }
+  },
+  "types": "./types/employee-query.d.ts"
 }
